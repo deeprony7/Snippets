@@ -26,3 +26,6 @@ git remote -v
 Delete remote branch
 
 git push origin --delete feature/login
+
+Ammend last commit message
+git commit --amend -m "New and correct message"
