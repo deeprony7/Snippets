@@ -29,3 +29,8 @@ git push origin --delete feature/login
 
 Ammend last commit message
 git commit --amend -m "New and correct message"
+
+To undo last commit/merge
+git reset --hard HEAD~1
+It will get you back 1 commit.
+
