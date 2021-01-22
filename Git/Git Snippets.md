@@ -37,3 +37,7 @@ It will get you back 1 commit.
 compare files from two different branches?
 git diff can show you the difference between two commits:
 git diff mybranch master -- myfile.cs
+
+### Deleting Multiple Branches in Git
+* `git branch | grep "<pattern>"`
+* `git branch | grep "<pattern>" | xargs git branch -D`
